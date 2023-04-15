@@ -36,7 +36,7 @@ spring:
         show: true #开启SQL显示，默认false
     #Redis相关配置
   redis:
-    host: localhost
+    host: 127.0.0.1
     port: 6379
     #password: 123456
     database: 0 #操作的是0号数据库
