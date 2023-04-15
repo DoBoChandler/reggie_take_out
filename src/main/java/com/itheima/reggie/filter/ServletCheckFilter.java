@@ -37,7 +37,12 @@ public class ServletCheckFilter implements Filter {
             "/front/**",
             "/common/**",
             "/user/sendMsg",//移动端发短信
-            "/user/login"   //移动端登录
+            "/user/login",   //移动端登录
+            "/doc.html",
+            "/webjars/**",
+            "/swagger-resources",
+            "/v2/api-docs",
+            "swagger-ui.html"
         };
         //3、如果不需要处理就直接放行
         boolean check = check(urls, requestURI);
