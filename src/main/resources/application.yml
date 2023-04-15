@@ -57,4 +57,4 @@ mybatis-plus:
       logic-delete-field: 1
       logic-not-delete-value: 0
 reggie:
-  path: D:\Program Sources\Files\Img\
+  path: /usr/local/img/
